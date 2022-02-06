@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Quick Test (apply a pretrained model, generate high quality portrait drawings in multiple styles using a single network)
 
-- 1. Download pre-trained models from [BaiduYun](https://pan.baidu.com/s/1_9Fy8mRpTQp6AvqhHsfQAQ)(extract code:c9h7) or [GoogleDrive](https://drive.google.com/drive/folders/1FzOcdlMYhvK_nyLCe8wnwotMphhIoiYt?usp=sharing) and rename the folder to `checkpoints/`.
+- 1. Download pre-trained models from [BaiduYun](https://pan.baidu.com/s/1eY60A1z2k9gTr9ryDxvMxQ)(extract code:g8is) or [GoogleDrive](https://drive.google.com/drive/folders/1R4mjaiXN3fISp0Lc4rP6DiTbQMCeTC9A?usp=sharing) and rename the folder to `checkpoints/`.
 
 - 2. Test for example photos: generate artistic portrait drawings for example photos in the folder `./examples` using
 ``` bash
