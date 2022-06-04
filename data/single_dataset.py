@@ -63,7 +63,7 @@ class SingleDataset(BaseDataset):
                 B_style = np.load(self.featureloc, self.opt.simg[:-4]+'.npy')
             
             B_style = B_style.view(3, 1, 1)
-            B_style = B_style.repeat(1, 128, 128)
+            B_style = B_style.repeat(1, self.opt.crop_size//4, self.opt.crop_size//4)
             item['B_style'] = B_style
 
         return item
